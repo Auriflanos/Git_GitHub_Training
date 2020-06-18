@@ -2,6 +2,8 @@
 
 Guia Prático para iniciantes
 
+#testando atualização para importar para o local.
+
 ### Instalação
 
 https://git-scm.com/download
