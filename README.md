@@ -248,18 +248,7 @@ OBS: cd ⇒ change directory.
 
 Estas pessoas contribuiram para o Readme.md ser o mais completo possível!
 
-<p align="center">
-<a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">Lucas Gonçalves</a>
-</p>
-<p align="center">
-<img alt="GIT" title="GIT" src="https://avatars0.githubusercontent.com/u/66454089?s=460&u=7d44989a97508ae37a8d5d81fb1bf19e005f15e9&v=4" width="130px"/>
-</p>
-
-
-<p align="center">
-<a href="https://github.com/Auriflanos">github</a>
-</p>
-
-<p align="center">
-<a href="https://www.linkedin.com/in/lucasrgoncalves/">linkedin</a>
-</p>
+| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
+| :---: |:---:| :---:|
+| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
+| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
