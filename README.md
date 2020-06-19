@@ -1,6 +1,6 @@
 <h1 align="center">
-    <img alt="GIT" title="GIT" src=".Curso_Git_e_Github/git.png" width="220px" />&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <img alt="GitHub" title="GitHub" src=".Curso_Git_e_Github/github.png" width="220px" />
+    <img alt="GIT" title="GIT" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Git.png" width="50px" />&nbsp;&nbsp;&nbsp;|<strong> Git e Github </strong> |&nbsp;&nbsp;&nbsp;
+    <img alt="GitHub" title="GitHub" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/github.png" width="50px" />
 </h1>
 
 > Guia Prático para iniciantes
@@ -10,7 +10,6 @@ Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
 # Vídeos de Referência
 
-# Git e Github
 
 ## Git
 
