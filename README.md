@@ -1,17 +1,14 @@
-# GIT e GITHUB
+<h1 align="center">
+    <img alt="GIT" title="GIT" src=".Curso_Git_e_Github/git.png" width="220px" />&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <img alt="GitHub" title="GitHub" src=".Curso_Git_e_Github/github.png" width="220px" />
+</h1>
 
-Guia Prático para iniciantes
+> Guia Prático para iniciantes
+Este Guia Foi criado para auxilia-los no aprendizado sobre o Git e GitHub.
 
-#testando atualização para importar para o local.
+Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
-### Instalação
-
-https://git-scm.com/download
-
-# Aprendizado:
 # Vídeos de Referência
-
-[https://www.youtube.com/watch?v=2alg7MQ6_sI&start=787](https://www.youtube.com/watch?v=2alg7MQ6_sI&start=787)
 
 # Git e Github
 
@@ -236,3 +233,13 @@ OBS: cd ⇒ change directory.
 - `git push` // envia alterações locais para o repositório remoto (Github);
 - `git clone` // Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
 - `git pull` // puxa/recebe o código atualizado do repositório remoto;
+
+## Developers
+
+> Estas pessoas contribuiram para o Readme.md ser o mais completo possível!
+
+| <a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">**Lucas Gonçalves**</a> |
+| :---: |:---:| :---:|
+| <img alt="GIT" title="GIT" src="https://avatars0.githubusercontent.com/u/66454089?s=460&u=7d44989a97508ae37a8d5d81fb1bf19e005f15e9&v=4" width="130px" />| 
+| <a href="https://github.com/Auriflanos" target="_blank">`GitHub`</a>| 
+| <a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">`LinkedIn`</a> |
