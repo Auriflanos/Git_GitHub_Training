@@ -3,13 +3,16 @@
     <img alt="GitHub" title="GitHub" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/github_ver2.png" width="50px" />
 </h1>
 
-> Guia Prático para iniciantes
-Este Guia Foi criado para auxilia-los no aprendizado sobre o Git e GitHub.
+# Guia Prático para iniciantes
+
+Este Guia foi criado para auxilia-los no aprendizado sobre o Git e GitHub.
 
 Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
 # Vídeos de Referência
 
+# Vídeos de Referência
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/2alg7MQ6_sI) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/UbJLOn1PAKw)
 
 ## Git
 
@@ -242,3 +245,21 @@ OBS: cd ⇒ change directory.
 | <img alt="GIT" title="GIT" src="https://avatars0.githubusercontent.com/u/66454089?s=460&u=7d44989a97508ae37a8d5d81fb1bf19e005f15e9&v=4" width="130px" />| 
 | <a href="https://github.com/Auriflanos" target="_blank">`GitHub`</a>| 
 | <a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">`LinkedIn`</a> |
+
+Estas pessoas contribuiram para o Readme.md ser o mais completo possível!
+
+<p align="center">
+<a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">Lucas Gonçalves</a>
+</p>
+<p align="center">
+<img alt="GIT" title="GIT" src="https://avatars0.githubusercontent.com/u/66454089?s=460&u=7d44989a97508ae37a8d5d81fb1bf19e005f15e9&v=4" width="130px"/>
+</p>
+
+
+<p align="center">
+<a href="https://github.com/Auriflanos">github</a>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/lucasrgoncalves/">linkedin</a>
+</p>
