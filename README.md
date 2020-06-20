@@ -69,22 +69,17 @@ Seu cartão de visita é o GitHub, por isso é importante ter um repositório de
 |--|--|
 |Basicamente a estratégia é documentar no arquivo **README.md**, o qual é o arquivo padrão exibido ao acessar seu repositório e o código do projeto, e que todas as pessoas poderão lê-lo. Lembrando que neste arquivo você explica o seu projeto de forma não muito técnico, focado no visual e na compreensão do que se trata seu código. |<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem1.png" width="1000px" /> </p><p align="center">Exemplo de [README.md](http://readme.md) muito bem criado. Autoria de: <a href="https://rocketseat.com.br/" target="_blank"><img alt="RocketSeat" title="RocketSeat" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem39.png" width="200px"/></a></p>|
 
-
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2499aca6-e318-4fa5-994c-bad04dd2e90e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2499aca6-e318-4fa5-994c-bad04dd2e90e/Untitled.png)
-
-
-
 Primeiro, antes de mais nada, devemos iniciar o Git usando o comando: 
 
 >*Git init*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fffcec92-2f8a-4712-a9ce-240d6da9b7e9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fffcec92-2f8a-4712-a9ce-240d6da9b7e9/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem2.png" width="450px" /> </p>
 
 Depois, "tocamos" o arquivo para definir a data e hora (tempo) que aquele arquivo foi modificado:
 
 >*Git touch*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c497d01d-6fc4-458c-b90b-80d04b02bbf9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c497d01d-6fc4-458c-b90b-80d04b02bbf9/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem3.png" width="450px" /> </p>
 
 Caso o terminal esteja muito poluído, basta dar o comando de limpar:
 
@@ -96,13 +91,13 @@ Por exemplo, para registrar quando você iniciou essa landing page basta dar o c
 
 >*Git add landingpage.html*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f40c70d-6ea5-4783-8ab8-1cfd3cd8dc10/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f40c70d-6ea5-4783-8ab8-1cfd3cd8dc10/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem4.png" width="450px" /> </p>
 
 Após adicionar os pontos na história do seu projeto, há necessidade de juntar as alterações para que seja enviado ao repositório. Ou seja, ele vai criar um ponto na história do projeto.
 
 >*Git commit -m "Added landing page."*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c4a48c-66bb-4c6e-8b05-d1639afe77f5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c4a48c-66bb-4c6e-8b05-d1639afe77f5/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem5.png" width="450px" /> </p>
 
 ## **Como verificar mudanças feitas no seu projeto?**
 
@@ -110,23 +105,23 @@ Para ver os pontos da história deste projeto (os *Commits*)
 
 >*Git log*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a8a17e1-975e-4091-9a55-7877c12978ae/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a8a17e1-975e-4091-9a55-7877c12978ae/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem6.png" width="450px" /> </p>
 
 >*Git status*
 
 Mostra o estado do meu projeto.
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e469166e-2649-44be-8769-3bef5202db1b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e469166e-2649-44be-8769-3bef5202db1b/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem7.png" width="450px" /> </p>
 
 Se queremos ver o que foi feito em um momento da história, precisamos, primeiro, identificar o momento e depois visualizar ele. A identificação é uma sequencia de caracteres ao lado de *commit* (sublinhado em vermelho na imagem abaixo) que aparece com o comando *git log:*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32c135c8-a1c2-40c2-9c12-bf6c748803f9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32c135c8-a1c2-40c2-9c12-bf6c748803f9/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem8.png" width="450px" /> </p>
 
 Depois, aplicamos o comando:
 
 >*Git show [insira aqui o código numerico]*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44578641-b190-4246-9787-4bbab5c77b68/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44578641-b190-4246-9787-4bbab5c77b68/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem9.png" width="450px" /> </p>
 
 Se eu quiser ver o ultimo ponto da história, basta colocar o comando:
 
@@ -142,17 +137,17 @@ Assim, começaremos a construir o código em um *branch* (um ramo) do projeto pa
 
 >*Git branch [nome da branch]*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caf59381-1e57-4032-84f3-f6ff2af121b5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caf59381-1e57-4032-84f3-f6ff2af121b5/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem10.png" width="450px" /> </p>
 
 Para mudar para essa branch, usamos o comando:
 
 >*Git checkout [nome da branch]*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6601dba0-5ee8-46ff-9b3d-d5c158c918fc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6601dba0-5ee8-46ff-9b3d-d5c158c918fc/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem11.png" width="450px" /> </p>
 
 Para confirmar novamente, é válido ir no *Git status:*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b265e78a-61d4-47d1-8139-8699ef159ea7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b265e78a-61d4-47d1-8139-8699ef159ea7/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem12.png" width="450px" /> </p>
 
 Para voltar para a master, é só usar o comando *Git checkout master.*
 
@@ -160,11 +155,11 @@ Para visualizar todos as ramificações criadas, basta digitar:
 
 >*Git branch*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cf08957-9ea2-4cea-8444-dbbbc81ebdb0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cf08957-9ea2-4cea-8444-dbbbc81ebdb0/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem13.png" width="450px" /> </p>
 
 Seguido os passos acima, foi criado uma pagina html chamada de cart e escrito carrinho em produção. Foi, também, registrado na *branch*. Veja o log como fica com *branch*:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1fa584d-0f31-4008-8078-dd47a29eb8e4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1fa584d-0f31-4008-8078-dd47a29eb8e4/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem14.png" width="450px" /> </p>
 
 Quer ter certeza se não foi feito alteração no seu ramo principal? Use o comando abaixo e veja os arquivos nele presente (veja que não consta o cart.html):
 
@@ -172,7 +167,7 @@ Quer ter certeza se não foi feito alteração no seu ramo principal? Use o coma
 
 OBS: LS ⇒ List, assim, o comando significa: list all
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16fd61dd-b197-4ae2-9633-50e0bd25327d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16fd61dd-b197-4ae2-9633-50e0bd25327d/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem15.png" width="450px" /> </p>
 
 ## **Como adicionar as novas funcionalidades ao seu projeto em produção?**
 
@@ -180,9 +175,9 @@ Fez as alterações na ramificação, gostou, aprovou? Hora de trazer para o pro
 
 >*Git merge [nome da branch]*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5acbede4-65e5-4c31-aeb3-5e9488d5fc9c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5acbede4-65e5-4c31-aeb3-5e9488d5fc9c/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem16.png" width="450px" /> </p>
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4e61e40-c4b6-4048-b735-25f24ac78b60/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4e61e40-c4b6-4048-b735-25f24ac78b60/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem17.png" width="450px" /> </p>
 
 - **Você quer deletar a *branch* da nova funcionalidade, depois de aplicar em seu projeto.**
 
@@ -190,7 +185,7 @@ Migrou a ramificação pro *master* com sucesso? projeto aprovado? hora de delet
 
 >*Git branch -D [nome da branch]*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0477600c-eee9-4ba4-bcc3-d3cf27168153/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0477600c-eee9-4ba4-bcc3-d3cf27168153/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem18.png" width="450px" /> </p>
 
 - **Você quer colocar seu projeto na nuvem (Github).**
 
@@ -198,19 +193,19 @@ Primeiro acesse o GitHub e crie sua conta/faça login.
 
 Após isso, clique em "Create Repository" caso ainda não tenha criado:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a1edbef-6ab4-4ade-86a6-61eb056a0b46/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a1edbef-6ab4-4ade-86a6-61eb056a0b46/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem19.png" width="450px" /> </p>
 
 Preencha com o nome do repositório e com uma descrição e siga para a próxima tela.
 
 Como já temos um "Readme.md", utilizaremos:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6d102ed-4041-4f52-b328-75c2a7a614c8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6d102ed-4041-4f52-b328-75c2a7a614c8/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem20.png" width="450px" /> </p>
 
 Para ver seus repositórios remotos, utilize:
 
 >*Git remote -v*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69c77db7-13d6-48f2-91bc-c0a1da58e043/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69c77db7-13d6-48f2-91bc-c0a1da58e043/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem21.png" width="450px" /> </p>
 
 Para fazer o upload do repositório local para o repositório online, utilize o comando:
 
@@ -220,19 +215,19 @@ Como é a primeira vez que fazemos o push, temos que criar a branch master:
 
 >*Git push -u origin master*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/829d387f-997f-4edf-b849-f95baffa20c7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/829d387f-997f-4edf-b849-f95baffa20c7/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem22.png" width="450px" /> </p>
 
 Caso seja a primeira vez que esteja fazendo o upload, é possivel que seja solicitado login e senha do GitHub.
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/047f003a-9a59-42da-b601-df449095e148/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/047f003a-9a59-42da-b601-df449095e148/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem23.png" width="450px" /> </p>
 
 Vejam acima que não há o arquivo README.md. Precisamos adicionar ele ao branch e fazer upload novamente.
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/933ac0a4-8a07-42cc-bf78-b2407bb153bb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/933ac0a4-8a07-42cc-bf78-b2407bb153bb/Untitled.png)
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem24.png" width="450px" /> </p>
 
 Agora sim, com Readme:
 
-<p>![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60b0403-0a38-4d10-a64e-2559dcfa35a1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60b0403-0a38-4d10-a64e-2559dcfa35a1/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem25.png" width="450px" /> </p>
 
 ## **Como pegar um projeto já iniciado, para trabalhar com em equipe?**
 
@@ -240,7 +235,7 @@ Para isso, precisamos pegar o link no GitHub. Encontre o projeto e obtenha o lin
 
 [Rocketseat/nlw-01-booster](https://github.com/Rocketseat/nlw-01-booster)
 
-<p align="center">[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f0b549-95a3-4321-9d2c-f66ee27bd205/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f0b549-95a3-4321-9d2c-f66ee27bd205/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem26.png" width="450px" /> </p>
 
 Após copiar o link, utilize o comando abaixo:
 
@@ -252,45 +247,45 @@ Normalmente, quando se trabalha com ramificações (*Branches)* é comum termos 
 
 Assim devemos arrumar esses conflitos. Veja a sequencia de eventos nas imagens abaixo. Modifiquei o arquivo "Cart.html" na branch Master e na Branch nova chamada conflito. Importante informar que o Git avalia conflitos na mesma linha, assim, no testo a linha 2 é a que possui conflito.
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f79d0ac7-5b58-4d38-a821-b550f0b96197/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f79d0ac7-5b58-4d38-a821-b550f0b96197/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem27.png" width="450px" /> </p>
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e8ae40d-8c51-4f3d-8dab-e81bda5fa7ad/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e8ae40d-8c51-4f3d-8dab-e81bda5fa7ad/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem28.png" width="450px" /> </p>
 
 Tela onde o VS Code realça o conflito:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef098c82-0c54-4298-96c9-811235fd3792/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef098c82-0c54-4298-96c9-811235fd3792/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem29.png" width="450px" /> </p>
 
 No caso, como há conflitos, o próprio Git nos ajuda com opções de aceitar a mudança presente na ramificação *Master*, aceitar a da ramificação *Conflito,* aceitar ambas as alterações, comparar as alterações ou, caso tenha dúvidas, iniciar uma sessão de compartilhamento remoto para que outro programador auxilie com este conflito.
 
 Para fim deste exercício, aceitaremos a mudança presente na *Master*:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c51352d-24a4-4662-99a3-45baaf397efa/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c51352d-24a4-4662-99a3-45baaf397efa/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem30.png" width="450px" /> </p>
 
 agora que resolvemos o conflito, há necessidade de atualizar a página e o projeto para que possamos subir no GitHub as atualizações:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24015d55-bd07-4bc4-9c42-d4281007fe5c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24015d55-bd07-4bc4-9c42-d4281007fe5c/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem31.png" width="450px" /> </p>
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f7c53da-8985-4535-855e-142d0b602862/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f7c53da-8985-4535-855e-142d0b602862/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem32.png" width="450px" /> </p>
 
 ## **Como, antes de enviar a resolução do conflito, atualizar o projeto local?**
 
 Digamos que alguém (ou você) alterou algo no GitHub (por meio de *Git push*, por exemplo) e você quer atualizar o projeto local. Primeiro, vamos ver como alterar um arquivo, digamos, o [Readme.md](http://readme.md) no GitHub:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75e08dac-2d65-4b6a-82b1-b9f02360cd91/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75e08dac-2d65-4b6a-82b1-b9f02360cd91/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem33.png" width="450px" /> </p>
 
 Após alteração, submeter o commit:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb9b121e-7806-460d-8eb5-81585641e131/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb9b121e-7806-460d-8eb5-81585641e131/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem34.png" width="450px" /> </p>
 
 É importante sempre verificar isso quando trabalhando em equipe para não criar conflitos ou perda de dados, assim, sempre puxe as atualizações do GitHub para somente então subir suas alterações.
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4da1f79-f19b-49d9-9b74-922462f8726f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4da1f79-f19b-49d9-9b74-922462f8726f/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem35.png" width="450px" /> </p>
 
 ## **Como voltar um arquivo para um determinado momento da linha do tempo?.**
 
 Vamos supor que os ajustes em seu código deram muito errado. Felizmente, se você salvou seguindo as instruções acima, é possível voltar um arquivo para um determinado momento da linha do tempo. Primeiramente identifique a etapa do tempo que deseja restaurar e obtenha o código desta linha de tempo:
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/207dd6d9-72aa-49f2-98fd-b7c4971a8f22/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/207dd6d9-72aa-49f2-98fd-b7c4971a8f22/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem36.png" width="450px" /> </p>
 
 Para restaurar, basta utilizar o comando abaixo:
 
@@ -302,14 +297,12 @@ E se um arquivo inteiro foi eliminado? Digamos que tenhamos um arquivo chamado c
 
 >*Git checkout -- [nome do arquivo **não esqueça de incluir a extensão!**]*
 
-<p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png)</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem37.png" width="450px" /> </p>
 
-<p="center">
-  <img width="460" height="300" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png">
-</p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem38.png" width="450px" /> </p>
 <p align="center">
-  <img width="460" height="300" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png">
-</p>
+
+
 - **Você precisa mudar de diretório.**
 
 Para mudar de diretório, utilize o comando:
