@@ -10,37 +10,48 @@ Este Guia foi criado para auxilia-los no aprendizado sobre o Git e GitHub.
 Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
 # Table of Contents
-- [Installation](#Antes_de_Começar)
+- [Videos de Referência](#Vídeos-de-Referência)
+- [Antes de Começar](#Antes-de-Começar)
+- [Git](#Git)
+- [Github](#GitHub)
+- [Como criar seu portfolio de projetos?](#Como-criar-seu-portfolio-de-projetos?)
+- [Como criar pontos na história da produção do seu projeto?](#Como-criar-pontos-na-história-da-produção-do-seu-projeto?)
+- [Como verificar mudanças feitas no seu projeto?](#Como-verificar-mudanças-feitas-no-seu-projeto?)
+- [Como começar uma nova funcionalidade no seu projeto, sem estragar o que já foi feito?](#Como-começar-uma-nova-funcionalidade-no-seu-projeto,-sem-estragar-o-que-já-foi-feito?)
+- [Como adicionar as novas funcionalidades ao seu projeto em produção?](#Como-adicionar-as-novas-funcionalidades-ao-seu-projeto-em-produção?)
+- [Como pegar um projeto já iniciado, para trabalhar com em equipe?](#Como-pegar-um-projeto-já-iniciado,-para-trabalhar-com-em-equipe?)
+- [Como resolver um conflito entre arquivos?](#Como-resolver-um-conflito-entre-arquivos?)
+- [Como, antes de enviar a resolução do conflito, atualizar o projeto local?](#Como,-antes-de-enviar-a-resolução-do-conflito,-atualizar-o-projeto-local?)
+- [Como voltar um arquivo para um determinado momento da linha do tempo?](#Como-voltar-um-arquivo-para-um-determinado-momento-da-linha-do-tempo?)
+- [Como recuperar algo deletado?](#Como-recuperar-algo-deletado?)
+- [Resumo dos comandos principais do Git](#Resumo-dos-comandos-principais-do-Git)
+- [Developers](#Developers)
 
 
 # Vídeos de Referência
-|<a href="https://www.youtube.com/embed/2alg7MQ6_sI" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video1.jpg" width="200px"/> | <a href="https://www.youtube.com/embed/UbJLOn1PAKw" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video2.jpg" width="200px"/> 
+<a href="https://www.youtube.com/embed/2alg7MQ6_sI" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video1.jpg" width="200px"/></a>| <a href="https://www.youtube.com/embed/UbJLOn1PAKw" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video2.jpg" width="200px"/></a>
 
 
-## Antes de começar...
+# **Antes de começar**
 
 |Descrição|Link|
 |--|--|
-|Segue o link do GIT: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Git](https://git-scm.com/)|
-Segue o link da Biblioteca do Git para saber mais sobre esta ferramenta: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Book](https://git-scm.com/book/en/v2)
-Segue o link do GIT para download: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Downloads](https://git-scm.com/downloads)
-|Segue link para um outro curso: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Katacoda](https://www.katacoda.com/courses/git)|
+|Link do GIT: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Git](https://git-scm.com/)|
+Link da Biblioteca do Git para saber mais sobre esta ferramenta: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Book](https://git-scm.com/book/en/v2)
+Link do GIT para download: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Downloads](https://git-scm.com/downloads)
+|Link para um outro curso: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Katacoda](https://www.katacoda.com/courses/git)|
 
-## Git
+# **Git**
 
-**Definição** ⇒ Software livre (Open Source) para controle de arquivos num projeto em geral, ou em outras palavras, controlador de versionamento distribuído, aqui chamados de *versionadores* de código.
+**Definição** <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> Software livre (Open Source) para controle de arquivos num projeto em geral, ou em outras palavras, controlador de versionamento distribuído, aqui chamados de *versionadores* de código.
 
-- **Funções:** Organizar, distribuir e gerenciar as várias versões de um software.
-- Repositório na nuvem que você está trabalhando **⇒** Precisa fazer um *Clone* em sua máquina para trabalhar **⇒** após o trabalho, você precisa juntar todo seu trabalho dentro de um (ou mais) pacotes chamados de *Commit* **⇒** Envia, então, para o repositório remoto utilizando o *Push***.**
-- Ao utilizar um repositório **alterado** por outro desenvolvedor ⇒ Ao invés de clonar, você vai fazer um *Pull ⇒* após o trabalho, você precisa juntar todo seu trabalho dentro de um (ou mais) pacotes chamados de *Commit* **⇒** Envia, então, para o repositório remoto utilizando o *Push***.**
-- *Pull Request* são pedidos de alterações/melhorias que vários desenvolvedores enviam ao repositório (via *Push*) para que sejam incorporados por meio de *Merge.*
-- Para utilizar, precisa-se baixar por meio da página:
+**Função** <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> Organizar, distribuir e gerenciar as várias versões de um software. Ou seja, é um repositório na nuvem.
 
-[Downloads](https://git-scm.com/download)
+**Utilização** <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" />Para utilizar, precisa-se baixar por meio da página:
 
->*Git Pull* ⇒ Comando para baixar as alterações de outros programadores (ou até por você mesmo) deixando seu código sempre pronto para que você trabalhe na última versão disponivel.
-- Eventualmente podem existir conflitos de códigos, que nada mais são áreas de códigos onde um ou mais programadores alterara e que agora precisam ser revisados.
-- O que o Git não consegue resolver, ele marca com um bloco visual.
+## [Downloads](https://git-scm.com/download)
+
+**Conflitos** <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> Eventualmente podem existir conflitos de códigos, que nada mais são áreas de códigos onde um ou mais programadores alterara e que agora precisam ser revisados. Os conflitos que o Git não consegue resolver, ele marca com um bloco visual.
 
 ## **Github**
 
@@ -50,9 +61,9 @@ Segue o link do GIT para download: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Downl
 
 Seu cartão de visita é o GitHub, por isso é importante ter um repositório de código bem atualizado e organizado.
 
-### Como criar seu portfolio de projetos?
+##  **Como criar seu portfolio de projetos?**
 
-Basicamente a estratégia é documentar no arquivo README.md, o qual é o arquivo padrão exibido ao acessar seu repositório e o código do projeto, e que todas as pessoas poderão lê-lo.
+Basicamente a estratégia é documentar no arquivo **README.md**, o qual é o arquivo padrão exibido ao acessar seu repositório e o código do projeto, e que todas as pessoas poderão lê-lo.
 
 Lembrando que nest arquivo você explica o seu projeto de forma não muito técnico, focado no visual e na compreensão do que se trata seu código.
 
@@ -76,7 +87,7 @@ Caso o terminal esteja muito poluído, basta dar o comando de limpar:
 
 >*Clear*
 
-- **Você deseja criar pontos na história da produção do seu projeto?**
+## **Como criar pontos na história da produção do seu projeto?**
 
 Por exemplo, para registrar quando você iniciou essa landing page basta dar o comando:
 
@@ -90,7 +101,7 @@ Após adicionar os pontos na história do seu projeto, há necessidade de juntar
 
 <p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c4a48c-66bb-4c6e-8b05-d1639afe77f5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c4a48c-66bb-4c6e-8b05-d1639afe77f5/Untitled.png)
 
-- **Você deseja verificar mudanças feitas no seu projeto**
+## **Como verificar mudanças feitas no seu projeto?**
 
 Para ver os pontos da história deste projeto (os *Commits*)
 
@@ -118,7 +129,7 @@ Se eu quiser ver o ultimo ponto da história, basta colocar o comando:
 
 <p align="center">>*Git show*
 
-- **Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.**
+## **Como começar uma nova funcionalidade no seu projeto, sem estragar o que já foi feito?**
 
 São a possibildiade de criar "universos" paralelos de seu projeto. Por padrão, seu projeto é criado como "master"
 
@@ -160,7 +171,7 @@ OBS: LS ⇒ List, assim, o comando significa: list all
 
 <p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16fd61dd-b197-4ae2-9633-50e0bd25327d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16fd61dd-b197-4ae2-9633-50e0bd25327d/Untitled.png)
 
-- **Você adiciona as novas funcionalidades ao seu projeto em produção**
+## **Como adicionar as novas funcionalidades ao seu projeto em produção?**
 
 Fez as alterações na ramificação, gostou, aprovou? Hora de trazer para o projeto principal (master).  Para isso, deve-se utilizar o comando:
 
@@ -220,7 +231,7 @@ Agora sim, com Readme:
 
 <p>![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60b0403-0a38-4d10-a64e-2559dcfa35a1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60b0403-0a38-4d10-a64e-2559dcfa35a1/Untitled.png)</p>
 
-- **Você vai pegar um projeto já iniciado, para trabalhar com em equipe**
+## **Como pegar um projeto já iniciado, para trabalhar com em equipe?**
 
 Para isso, precisamos pegar o link no GitHub. Encontre o projeto e obtenha o link. No exemplo, usaremos o GitHub da Rocketseat: 
 
@@ -232,7 +243,7 @@ Após copiar o link, utilize o comando abaixo:
 
 >*Git clone [link copiado]*
 
-- **Você precisa resolver um conflito entre arquivos**
+## **Como resolver um conflito entre arquivos?**
 
 Normalmente, quando se trabalha com ramificações (*Branches)* é comum termos conflitos de arquivos para se tratar. Isso significa, por exemplo, que uma modificação num arquivo chamado, digamos, package.json da *branch*, corre o risco de subscrever uma modificação feita na mesma linha na *Master.*
 
@@ -258,7 +269,7 @@ agora que resolvemos o conflito, há necessidade de atualizar a página e o proj
 
 <p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f7c53da-8985-4535-855e-142d0b602862/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f7c53da-8985-4535-855e-142d0b602862/Untitled.png)</p>
 
-- **Antes de enviar a resolução, precisamos atualizar o projeto local.**
+## **Como, antes de enviar a resolução do conflito, atualizar o projeto local?**
 
 Digamos que alguém (ou você) alterou algo no GitHub (por meio de *Git push*, por exemplo) e você quer atualizar o projeto local. Primeiro, vamos ver como alterar um arquivo, digamos, o [Readme.md](http://readme.md) no GitHub:
 
@@ -272,7 +283,7 @@ Após alteração, submeter o commit:
 
 <p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4da1f79-f19b-49d9-9b74-922462f8726f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4da1f79-f19b-49d9-9b74-922462f8726f/Untitled.png)</p>
 
-- **Você precisa voltar um arquivo para um determinado momento da linha do tempo.**
+## **Como voltar um arquivo para um determinado momento da linha do tempo?.**
 
 Vamos supor que os ajustes em seu código deram muito errado. Felizmente, se você salvou seguindo as instruções acima, é possível voltar um arquivo para um determinado momento da linha do tempo. Primeiramente identifique a etapa do tempo que deseja restaurar e obtenha o código desta linha de tempo:
 
@@ -282,7 +293,7 @@ Para restaurar, basta utilizar o comando abaixo:
 
 >*Git checkout [sequencia numérica] -- [nome do arquivo **não esqueça de incluir a extensão!**]*
 
-- **Você precisa recuperar algo deletado.**
+## **Como recuperar algo deletado?**
 
 E se um arquivo inteiro foi eliminado? Digamos que tenhamos um arquivo chamado cart.html e esse foi eliminado. Para restaurar, basta usar o código abaixo:
 
@@ -290,6 +301,12 @@ E se um arquivo inteiro foi eliminado? Digamos que tenhamos um arquivo chamado c
 
 <p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png)</p>
 
+<p="center">
+  <img width="460" height="300" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png">
+</p>
+<p align="center">
+  <img width="460" height="300" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png">
+</p>
 - **Você precisa mudar de diretório.**
 
 Para mudar de diretório, utilize o comando:
@@ -298,7 +315,7 @@ Para mudar de diretório, utilize o comando:
 
 *OBS*: cd ⇒ change directory.
 
-# Main Git commands:
+# **Resumo dos comandos principais do Git**
 
 - `git init` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> inicia a linha do tempo;
 - `git add` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> adiciona ou atualiza mudanças para irem para a linha do tempo, atualizando os arquivos nos commits;
