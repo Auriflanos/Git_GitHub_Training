@@ -49,7 +49,9 @@ Link do GIT para download: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Downloads](ht
 
 **Utilização** <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" />Para utilizar, precisa-se baixar por meio da página:
 
-## [Downloads](https://git-scm.com/download)
+<p align="center">
+<a href="https://git-scm.com/download" target="_blank"><img alt="Download Git" title="Download Git" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Screen%20download.jpg" width="350px"/></a>
+</p>
 
 **Conflitos** <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> Eventualmente podem existir conflitos de códigos, que nada mais são áreas de códigos onde um ou mais programadores alterara e que agora precisam ser revisados. Os conflitos que o Git não consegue resolver, ele marca com um bloco visual.
 
