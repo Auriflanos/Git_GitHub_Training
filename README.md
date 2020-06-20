@@ -29,7 +29,7 @@ Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
 
 # Vídeos de Referência
-<a href="https://www.youtube.com/embed/2alg7MQ6_sI" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video1.jpg" width="200px"/></a>| <a href="https://www.youtube.com/embed/UbJLOn1PAKw" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video2.jpg" width="200px"/></a>
+<a href="https://www.youtube.com/embed/2alg7MQ6_sI" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video1.jpg" width="300px"/></a>| <a href="https://www.youtube.com/embed/UbJLOn1PAKw" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video2.jpg" width="300px"/></a>
 
 
 # **Antes de começar**
