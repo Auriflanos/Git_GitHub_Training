@@ -232,9 +232,9 @@ OBS: cd ⇒ change directory.
 - `git branch` => gerenciar novas linhas do tempo;
 - `git checkout` => manipula as linhas do tempo;
 - `git merge` => unir linhas do tempo;
-- `git push` => envia alterações locais para o repositório remoto (Github);
-- `git clone` <img alt="" title="" src="https://image.flaticon.com/icons/svg/1286/1286853.svg" width="15px" /> Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
-- `git pull` <img alt="" title="" src="https://image.flaticon.com/icons/svg/1286/1286853.svg" width="15px" /> puxa/recebe o código atualizado do repositório remoto;
+- `git push`  <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> envia alterações locais para o repositório remoto (Github);
+- `git clone` <img alt="Icon made by Smashicons from www.flaticon.com" title="Icon made by Smashicons from www.flaticon.com" src="https://image.flaticon.com/icons/png/512/149/149408.png" width="17px" /> Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
+- `git pull` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/1286/1286853.svg" width="15px" /> puxa/recebe o código atualizado do repositório remoto;
 
 ## Developers
 
