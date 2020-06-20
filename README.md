@@ -65,13 +65,14 @@ Seu cartão de visita é o GitHub, por isso é importante ter um repositório de
 
 ##  **Como criar seu portfolio de projetos?**
 
-Basicamente a estratégia é documentar no arquivo **README.md**, o qual é o arquivo padrão exibido ao acessar seu repositório e o código do projeto, e que todas as pessoas poderão lê-lo.
+|||
+|--|--|
+|Basicamente a estratégia é documentar no arquivo **README.md**, o qual é o arquivo padrão exibido ao acessar seu repositório e o código do projeto, e que todas as pessoas poderão lê-lo. Lembrando que neste arquivo você explica o seu projeto de forma não muito técnico, focado no visual e na compreensão do que se trata seu código. |<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem1.png" width="1000px" /> </p><p align="center">Exemplo de [README.md](http://readme.md) muito bem criado. Autoria de: <a href="https://rocketseat.com.br/" target="_blank"><img alt="RocketSeat" title="RocketSeat" src="https://www.websystemer.no/wp-content/uploads/2020/05/rocketseat-realmente-vale-a-pena-800x445.png" width="200px"/></a></p>|
 
-Lembrando que nest arquivo você explica o seu projeto de forma não muito técnico, focado no visual e na compreensão do que se trata seu código.
 
 <p align="center">![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2499aca6-e318-4fa5-994c-bad04dd2e90e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2499aca6-e318-4fa5-994c-bad04dd2e90e/Untitled.png)
 
-Exemplo de [README.md](http://readme.md) muito bem criado. Autoria de: [RocketSeat](https://rocketseat.com.br/)
+
 
 Primeiro, antes de mais nada, devemos iniciar o Git usando o comando: 
 
