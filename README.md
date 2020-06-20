@@ -73,13 +73,13 @@ Primeiro, antes de mais nada, devemos iniciar o Git usando o comando:
 
 >*Git init*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem2.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem2.png" width="550px" /> </p>
 
 Depois, "tocamos" o arquivo para definir a data e hora (tempo) que aquele arquivo foi modificado:
 
 >*Git touch*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem3.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem3.png" width="550px" /> </p>
 
 Caso o terminal esteja muito poluído, basta dar o comando de limpar:
 
@@ -91,13 +91,13 @@ Por exemplo, para registrar quando você iniciou essa landing page basta dar o c
 
 >*Git add landingpage.html*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem4.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem4.png" width="550px" /> </p>
 
 Após adicionar os pontos na história do seu projeto, há necessidade de juntar as alterações para que seja enviado ao repositório. Ou seja, ele vai criar um ponto na história do projeto.
 
 >*Git commit -m "Added landing page."*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem5.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem5.png" width="550px" /> </p>
 
 ## **Como verificar mudanças feitas no seu projeto?**
 
@@ -105,23 +105,23 @@ Para ver os pontos da história deste projeto (os *Commits*)
 
 >*Git log*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem6.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem6.png" width="550px" /> </p>
 
 >*Git status*
 
 Mostra o estado do meu projeto.
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem7.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem7.png" width="550px" /> </p>
 
 Se queremos ver o que foi feito em um momento da história, precisamos, primeiro, identificar o momento e depois visualizar ele. A identificação é uma sequencia de caracteres ao lado de *commit* (sublinhado em vermelho na imagem abaixo) que aparece com o comando *git log:*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem8.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem8.png" width="550px" /> </p>
 
 Depois, aplicamos o comando:
 
 >*Git show [insira aqui o código numerico]*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem9.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem9.png" width="550px" /> </p>
 
 Se eu quiser ver o ultimo ponto da história, basta colocar o comando:
 
@@ -137,17 +137,17 @@ Assim, começaremos a construir o código em um *branch* (um ramo) do projeto pa
 
 >*Git branch [nome da branch]*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem10.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem10.png" width="550px" /> </p>
 
 Para mudar para essa branch, usamos o comando:
 
 >*Git checkout [nome da branch]*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem11.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem11.png" width="550px" /> </p>
 
 Para confirmar novamente, é válido ir no *Git status:*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem12.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem12.png" width="550px" /> </p>
 
 Para voltar para a master, é só usar o comando *Git checkout master.*
 
@@ -155,11 +155,11 @@ Para visualizar todos as ramificações criadas, basta digitar:
 
 >*Git branch*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem13.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem13.png" width="550px" /> </p>
 
 Seguido os passos acima, foi criado uma pagina html chamada de cart e escrito carrinho em produção. Foi, também, registrado na *branch*. Veja o log como fica com *branch*:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem14.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem14.png" width="550px" /> </p>
 
 Quer ter certeza se não foi feito alteração no seu ramo principal? Use o comando abaixo e veja os arquivos nele presente (veja que não consta o cart.html):
 
@@ -167,7 +167,7 @@ Quer ter certeza se não foi feito alteração no seu ramo principal? Use o coma
 
 OBS: LS ⇒ List, assim, o comando significa: list all
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem15.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem15.png" width="550px" /> </p>
 
 ## **Como adicionar as novas funcionalidades ao seu projeto em produção?**
 
@@ -175,9 +175,9 @@ Fez as alterações na ramificação, gostou, aprovou? Hora de trazer para o pro
 
 >*Git merge [nome da branch]*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem16.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem16.png" width="550px" /> </p>
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem17.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem17.png" width="550px" /> </p>
 
 - **Você quer deletar a *branch* da nova funcionalidade, depois de aplicar em seu projeto.**
 
@@ -185,7 +185,7 @@ Migrou a ramificação pro *master* com sucesso? projeto aprovado? hora de delet
 
 >*Git branch -D [nome da branch]*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem18.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem18.png" width="550px" /> </p>
 
 - **Você quer colocar seu projeto na nuvem (Github).**
 
@@ -193,19 +193,19 @@ Primeiro acesse o GitHub e crie sua conta/faça login.
 
 Após isso, clique em "Create Repository" caso ainda não tenha criado:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem19.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem19.png" width="550px" /> </p>
 
 Preencha com o nome do repositório e com uma descrição e siga para a próxima tela.
 
 Como já temos um "Readme.md", utilizaremos:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem20.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem20.png" width="550px" /> </p>
 
 Para ver seus repositórios remotos, utilize:
 
 >*Git remote -v*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem21.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem21.png" width="550px" /> </p>
 
 Para fazer o upload do repositório local para o repositório online, utilize o comando:
 
@@ -215,27 +215,28 @@ Como é a primeira vez que fazemos o push, temos que criar a branch master:
 
 >*Git push -u origin master*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem22.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem22.png" width="550px" /> </p>
 
 Caso seja a primeira vez que esteja fazendo o upload, é possivel que seja solicitado login e senha do GitHub.
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem23.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem23.png" width="550px" /> </p>
 
 Vejam acima que não há o arquivo README.md. Precisamos adicionar ele ao branch e fazer upload novamente.
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem24.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem24.png" width="550px" /> </p>
 
 Agora sim, com Readme:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem25.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem25.png" width="550px" /> </p>
 
 ## **Como pegar um projeto já iniciado, para trabalhar com em equipe?**
 
 Para isso, precisamos pegar o link no GitHub. Encontre o projeto e obtenha o link. No exemplo, usaremos o GitHub da Rocketseat: 
 
-[Rocketseat/nlw-01-booster](https://github.com/Rocketseat/nlw-01-booster)
+[Rocketseat/nlw-01-booster]()
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem26.png" width="450px" /> </p>
+<p align="center"><a href="https://github.com/Rocketseat/nlw-01-booster" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem26.png" width="600px"/></a></p>
+
 
 Após copiar o link, utilize o comando abaixo:
 
@@ -247,45 +248,45 @@ Normalmente, quando se trabalha com ramificações (*Branches)* é comum termos 
 
 Assim devemos arrumar esses conflitos. Veja a sequencia de eventos nas imagens abaixo. Modifiquei o arquivo "Cart.html" na branch Master e na Branch nova chamada conflito. Importante informar que o Git avalia conflitos na mesma linha, assim, no testo a linha 2 é a que possui conflito.
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem27.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem27.png" width="550px" /> </p>
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem28.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem28.png" width="550px" /> </p>
 
 Tela onde o VS Code realça o conflito:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem29.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem29.png" width="550px" /> </p>
 
 No caso, como há conflitos, o próprio Git nos ajuda com opções de aceitar a mudança presente na ramificação *Master*, aceitar a da ramificação *Conflito,* aceitar ambas as alterações, comparar as alterações ou, caso tenha dúvidas, iniciar uma sessão de compartilhamento remoto para que outro programador auxilie com este conflito.
 
 Para fim deste exercício, aceitaremos a mudança presente na *Master*:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem30.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem30.png" width="550px" /> </p>
 
 agora que resolvemos o conflito, há necessidade de atualizar a página e o projeto para que possamos subir no GitHub as atualizações:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem31.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem31.png" width="550px" /> </p>
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem32.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem32.png" width="550px" /> </p>
 
 ## **Como, antes de enviar a resolução do conflito, atualizar o projeto local?**
 
 Digamos que alguém (ou você) alterou algo no GitHub (por meio de *Git push*, por exemplo) e você quer atualizar o projeto local. Primeiro, vamos ver como alterar um arquivo, digamos, o [Readme.md](http://readme.md) no GitHub:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem33.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem33.png" width="550px" /> </p>
 
 Após alteração, submeter o commit:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem34.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem34.png" width="550px" /> </p>
 
 É importante sempre verificar isso quando trabalhando em equipe para não criar conflitos ou perda de dados, assim, sempre puxe as atualizações do GitHub para somente então subir suas alterações.
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem35.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem35.png" width="550px" /> </p>
 
 ## **Como voltar um arquivo para um determinado momento da linha do tempo?.**
 
 Vamos supor que os ajustes em seu código deram muito errado. Felizmente, se você salvou seguindo as instruções acima, é possível voltar um arquivo para um determinado momento da linha do tempo. Primeiramente identifique a etapa do tempo que deseja restaurar e obtenha o código desta linha de tempo:
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem36.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem36.png" width="550px" /> </p>
 
 Para restaurar, basta utilizar o comando abaixo:
 
@@ -297,9 +298,9 @@ E se um arquivo inteiro foi eliminado? Digamos que tenhamos um arquivo chamado c
 
 >*Git checkout -- [nome do arquivo **não esqueça de incluir a extensão!**]*
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem37.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem37.png" width="550px" /> </p>
 
-<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem38.png" width="450px" /> </p>
+<p align="center"> <img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Images/Imagem38.png" width="550px" /> </p>
 <p align="center">
 
 
