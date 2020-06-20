@@ -221,28 +221,28 @@ Para mudar de diretório, utilize o comando:
 
 OBS: cd ⇒ change directory.
 
-# Principais comandos do Git:
+# Main Git commands:
 
-- `git init` // inicia a linha do tempo;
-- `git add` // adiciona ou atualiza mudanças para irem para a linha do tempo, atualizando os arquivos nos commits;
+- `git init` => inicia a linha do tempo;
+- `git add` => adiciona ou atualiza mudanças para irem para a linha do tempo, atualizando os arquivos nos commits;
 - `git commit -m "mensagem"`  // adiciona um ponto na l;inha do tempo
-- `git log` // visualiza os pontos na linha do tempo / commit;
-- `git status` // informa o estado das alterações do nosso projeto;
-- `git show` // apresenta determinado ponto na história;
-- `git branch` // gerenciar novas linhas do tempo;
-- `git checkout` // manipula as linhas do tempo;
-- `git merge` // unir linhas do tempo;
-- `git push` // envia alterações locais para o repositório remoto (Github);
-- `git clone` // Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
-- `git pull` // puxa/recebe o código atualizado do repositório remoto;
+- `git log` => visualiza os pontos na linha do tempo / commit;
+- `git status` => informa o estado das alterações do nosso projeto;
+- `git show` => apresenta determinado ponto na história;
+- `git branch` => gerenciar novas linhas do tempo;
+- `git checkout` => manipula as linhas do tempo;
+- `git merge` => unir linhas do tempo;
+- `git push` => envia alterações locais para o repositório remoto (Github);
+- `git clone` <img alt="" title="" src="https://image.flaticon.com/icons/svg/1286/1286853.svg" width="15px" /> Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
+- `git pull` <img alt="" title="" src="https://image.flaticon.com/icons/svg/1286/1286853.svg" width="15px" /> puxa/recebe o código atualizado do repositório remoto;
 
 ## Developers
 
 > Estas pessoas contribuiram para o Readme.md ser o mais completo possível!
 
-| <a href="http://fvcproductions.com" target="_blank">**Lucas Gonçalves**</a> | <a href="http://fvcproductions.com" target="_blank">**Daywison Silva**</a> |
+| <a href="https://github.com/Auriflanos" target="_blank">**Lucas Gonçalves**</a> | <a href="https://github.com/DaywisonSilva" target="_blank">**Daywison Silva**</a> |
 | :---: |:---:| 
-| <a href="" target="_blank">***Owner***</a> | <a href="" target="_blank">***Suporter***</a> |
+| <a href="https://github.com/Auriflanos" target="_blank">***Owner***</a> | <a href="https://github.com/DaywisonSilva" target="_blank">***Supporter***</a> |
 |<img alt="Developer" title="Developer" src="https://avatars0.githubusercontent.com/u/66454089?s=460&u=7d44989a97508ae37a8d5d81fb1bf19e005f15e9&v=4" width="130px" />| <img alt="Developer" title="Developer" src="https://avatars3.githubusercontent.com/u/54292958?s=460&u=77341c2bc487c5146a1d937d7c511c7087025b68&v=4" width="130px" /> |
 | <a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">`LinkedIn`</a> | <a href="https://www.linkedin.com/in/daywison-s-ab11b6121" target="_blank">`LinkedIn`</a> |
 | <a href="https://github.com/Auriflanos" target="_blank">`GitHub`</a> | <a href="https://github.com/DaywisonSilva/" target="_blank">`GitHub`</a> |
