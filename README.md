@@ -241,7 +241,7 @@ OBS: cd ⇒ change directory.
 > Estas pessoas contribuiram para o Readme.md ser o mais completo possível!
 
 | <a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">**Lucas Gonçalves**</a> || <a href="https://www.linkedin.com/in/daywison-s-ab11b6121" target="_blank">**Daywison Silva/**</a> |
-| :---: || :---: || :---: |
+| :---: || :---: |
 | <img alt="Developer" title="Developer" src="https://avatars0.githubusercontent.com/u/66454089?s=460&u=7d44989a97508ae37a8d5d81fb1bf19e005f15e9&v=4" width="130px" />| | <img alt="Suporter" title="Suporter" src="https://avatars3.githubusercontent.com/u/54292958?s=460&u=77341c2bc487c5146a1d937d7c511c7087025b68&v=4" width="130px" />| 
 | <a href="https://github.com/Auriflanos" target="_blank">`GitHub`</a>|| <a href="https://github.com/DaywisonSilva/" target="_blank">`GitHub`</a>|  
 | <a href="https://www.linkedin.com/in/lucasrgoncalves/" target="_blank">`LinkedIn`</a> || <a href="https://www.linkedin.com/in/daywison-s-ab11b6121" target="_blank">`LinkedIn`</a> |
