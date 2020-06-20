@@ -9,14 +9,29 @@ Este Guia foi criado para auxilia-los no aprendizado sobre o Git e GitHub.
 
 Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
-# Vídeos de Referência
+# Table of Contents
+- [Installation](#Antes_de_Começar)
+
 
 # Vídeos de Referência
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/2alg7MQ6_sI) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/UbJLOn1PAKw)
 
+## Antes de começar...
+
+|Descrição|Link|
+|--|--|
+|Segue o link do GIT: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Git](https://git-scm.com/)|
+Segue o link da Biblioteca do Git para saber mais sobre esta ferramenta: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Book](https://git-scm.com/book/en/v2)
+Segue o link do GIT para download: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Downloads](https://git-scm.com/downloads)
+|Segue link para um outro curso: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [Katacoda](https://www.katacoda.com/courses/git)|
+
+
+
+
+
 ## Git
 
-**Definição** ⇒ Software livre (Open Source) para controle de versões de edição de códigos, aqui chamados de *versionadores* de código.
+**Definição** ⇒ Software livre (Open Source) para controle de arquivos num projeto em geral, ou em outras palavras, controlador de versionamento distribuído, aqui chamados de *versionadores* de código.
 
 - **Funções:** Organizar, distribuir e gerenciar as várias versões de um software.
 - Repositório na nuvem que você está trabalhando **⇒** Precisa fazer um *Clone* em sua máquina para trabalhar **⇒** após o trabalho, você precisa juntar todo seu trabalho dentro de um (ou mais) pacotes chamados de *Commit* **⇒** Envia, então, para o repositório remoto utilizando o *Push***.**
@@ -26,7 +41,7 @@ Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
 [Downloads](https://git-scm.com/download)
 
-- *Git Pull* ⇒ Comando para baixar as alterações de outros programadores (ou até por você mesmo) deixando seu código sempre pronto para que você trabalhe na última versão disponivel.
+>*Git Pull* ⇒ Comando para baixar as alterações de outros programadores (ou até por você mesmo) deixando seu código sempre pronto para que você trabalhe na última versão disponivel.
 - Eventualmente podem existir conflitos de códigos, que nada mais são áreas de códigos onde um ou mais programadores alterara e que agora precisam ser revisados.
 - O que o Git não consegue resolver, ele marca com um bloco visual.
 
@@ -50,31 +65,31 @@ Exemplo de [README.md](http://readme.md) muito bem criado. Autoria de: [RocketSe
 
 Primeiro, antes de mais nada, devemos iniciar o Git usando o comando: 
 
-*Git init*
+>*Git init*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fffcec92-2f8a-4712-a9ce-240d6da9b7e9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fffcec92-2f8a-4712-a9ce-240d6da9b7e9/Untitled.png)
 
 Depois, "tocamos" o arquivo para definir a data e hora (tempo) que aquele arquivo foi modificado:
 
-*Git touch*
+>*Git touch*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c497d01d-6fc4-458c-b90b-80d04b02bbf9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c497d01d-6fc4-458c-b90b-80d04b02bbf9/Untitled.png)
 
 Caso o terminal esteja muito poluído, basta dar o comando de limpar:
 
-*Clear*
+>*Clear*
 
 - **Você deseja criar pontos na história da produção do seu projeto?**
 
 Por exemplo, para registrar quando você iniciou essa landing page basta dar o comando:
 
-*Git add landingpage.html*
+>*Git add landingpage.html*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f40c70d-6ea5-4783-8ab8-1cfd3cd8dc10/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f40c70d-6ea5-4783-8ab8-1cfd3cd8dc10/Untitled.png)
 
 Após adicionar os pontos na história do seu projeto, há necessidade de juntar as alterações para que seja enviado ao repositório. Ou seja, ele vai criar um ponto na história do projeto.
 
-*Git commit -m "Added landing page."*
+>*Git commit -m "Added landing page."*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c4a48c-66bb-4c6e-8b05-d1639afe77f5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c4a48c-66bb-4c6e-8b05-d1639afe77f5/Untitled.png)
 
@@ -82,11 +97,11 @@ Após adicionar os pontos na história do seu projeto, há necessidade de juntar
 
 Para ver os pontos da história deste projeto (os *Commits*)
 
-*Git log*
+>*Git log*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a8a17e1-975e-4091-9a55-7877c12978ae/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a8a17e1-975e-4091-9a55-7877c12978ae/Untitled.png)
 
-*Git status*
+>*Git status*
 
 Mostra o estado do meu projeto.
 
@@ -98,29 +113,29 @@ Se queremos ver o que foi feito em um momento da história, precisamos, primeiro
 
 Depois, aplicamos o comando:
 
-*Git show [insira aqui o código numerico]*
+>*Git show [insira aqui o código numerico]*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44578641-b190-4246-9787-4bbab5c77b68/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44578641-b190-4246-9787-4bbab5c77b68/Untitled.png)
 
 Se eu quiser ver o ultimo ponto da história, basta colocar o comando:
 
-*Git show*
+>*Git show*
 
 - **Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.**
 
-São a possibildiade de criar "universos" paralelos de seu projeto. Por standar, seu projeto é criado como "master"
-
-*Git branch [nome da branch]*
+São a possibildiade de criar "universos" paralelos de seu projeto. Por padrão, seu projeto é criado como "master"
 
 Suponhamos que um cliente pediu para você adicionar um carrinho de compras.
 
-Assim, começaremos a construir o código em um *branch* (um ramo) do projeto para que o original não seja afetado (em caso de algum erro!)
+Assim, começaremos a construir o código em um *branch* (um ramo) do projeto para que o original não seja afetado (em caso de algum erro!). Para criar o novo branch, utilize o código abaixo:
+
+>*Git branch [nome da branch]*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caf59381-1e57-4032-84f3-f6ff2af121b5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caf59381-1e57-4032-84f3-f6ff2af121b5/Untitled.png)
 
 Para mudar para essa branch, usamos o comando:
 
-*Git checkout [nome da branch]*
+>*Git checkout [nome da branch]*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6601dba0-5ee8-46ff-9b3d-d5c158c918fc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6601dba0-5ee8-46ff-9b3d-d5c158c918fc/Untitled.png)
 
@@ -132,7 +147,7 @@ Para voltar para a master, é só usar o comando *Git checkout master.*
 
 Para visualizar todos as ramificações criadas, basta digitar:
 
-*Git branch*
+>*Git branch*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cf08957-9ea2-4cea-8444-dbbbc81ebdb0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cf08957-9ea2-4cea-8444-dbbbc81ebdb0/Untitled.png)
 
@@ -142,7 +157,7 @@ Seguido os passos acima, foi criado uma pagina html chamada de cart e escrito ca
 
 Quer ter certeza se não foi feito alteração no seu ramo principal? Use o comando abaixo e veja os arquivos nele presente (veja que não consta o cart.html):
 
-*Git ls -all*
+>*Git ls -all*
 
 OBS: LS ⇒ List, assim, o comando significa: list all
 
@@ -152,7 +167,7 @@ OBS: LS ⇒ List, assim, o comando significa: list all
 
 Fez as alterações na ramificação, gostou, aprovou? Hora de trazer para o projeto principal (master).  Para isso, deve-se utilizar o comando:
 
-*Git merge [nome da branch]*
+>*Git merge [nome da branch]*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5acbede4-65e5-4c31-aeb3-5e9488d5fc9c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5acbede4-65e5-4c31-aeb3-5e9488d5fc9c/Untitled.png)
 
@@ -162,7 +177,7 @@ Fez as alterações na ramificação, gostou, aprovou? Hora de trazer para o pro
 
 Migrou a ramificação pro *master* com sucesso? projeto aprovado? hora de deletar a branch para não haver ruídos:
 
-*Git branch -D [nome da branch]*
+>*Git branch -D [nome da branch]*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0477600c-eee9-4ba4-bcc3-d3cf27168153/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0477600c-eee9-4ba4-bcc3-d3cf27168153/Untitled.png)
 
@@ -182,17 +197,17 @@ Como já temos um "Readme.md", utilizaremos:
 
 Para ver seus repositórios remotos, utilize:
 
-*Git remote -v*
+>*Git remote -v*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69c77db7-13d6-48f2-91bc-c0a1da58e043/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69c77db7-13d6-48f2-91bc-c0a1da58e043/Untitled.png)
 
 Para fazer o upload do repositório local para o repositório online, utilize o comando:
 
-*Git push*
+>*Git push*
 
 Como é a primeira vez que fazemos o push, temos que criar a branch master:
 
-*Git push -u origin master*
+>*Git push -u origin master*
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/829d387f-997f-4edf-b849-f95baffa20c7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/829d387f-997f-4edf-b849-f95baffa20c7/Untitled.png)
 
@@ -208,33 +223,98 @@ Agora sim, com Readme:
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60b0403-0a38-4d10-a64e-2559dcfa35a1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60b0403-0a38-4d10-a64e-2559dcfa35a1/Untitled.png)
 
-- **Você vai pegar um projeto já iniciado, para trabalhar com o time**
-- **Você precisa resolver um conflito.**
+- **Você vai pegar um projeto já iniciado, para trabalhar com em equipe**
+
+Para isso, precisamos pegar o link no GitHub. Encontre o projeto e obtenha o link. No exemplo, usaremos o GitHub da Rocketseat: 
+
+[Rocketseat/nlw-01-booster](https://github.com/Rocketseat/nlw-01-booster)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f0b549-95a3-4321-9d2c-f66ee27bd205/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f0b549-95a3-4321-9d2c-f66ee27bd205/Untitled.png)
+
+Após copiar o link, utilize o comando abaixo:
+
+>*Git clone [link copiado]*
+
+- **Você precisa resolver um conflito entre arquivos**
+
+Normalmente, quando se trabalha com ramificações (*Branches)* é comum termos conflitos de arquivos para se tratar. Isso significa, por exemplo, que uma modificação num arquivo chamado, digamos, package.json da *branch*, corre o risco de subscrever uma modificação feita na mesma linha na *Master.*
+
+Assim devemos arrumar esses conflitos. Veja a sequencia de eventos nas imagens abaixo. Modifiquei o arquivo "Cart.html" na branch Master e na Branch nova chamada conflito. Importante informar que o Git avalia conflitos na mesma linha, assim, no testo a linha 2 é a que possui conflito.
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f79d0ac7-5b58-4d38-a821-b550f0b96197/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f79d0ac7-5b58-4d38-a821-b550f0b96197/Untitled.png)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e8ae40d-8c51-4f3d-8dab-e81bda5fa7ad/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e8ae40d-8c51-4f3d-8dab-e81bda5fa7ad/Untitled.png)
+
+Tela onde o VS Code realça o conflito:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef098c82-0c54-4298-96c9-811235fd3792/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef098c82-0c54-4298-96c9-811235fd3792/Untitled.png)
+
+No caso, como há conflitos, o próprio Git nos ajuda com opções de aceitar a mudança presente na ramificação *Master*, aceitar a da ramificação *Conflito,* aceitar ambas as alterações, comparar as alterações ou, caso tenha dúvidas, iniciar uma sessão de compartilhamento remoto para que outro programador auxilie com este conflito.
+
+Para fim deste exercício, aceitaremos a mudança presente na *Master*:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c51352d-24a4-4662-99a3-45baaf397efa/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c51352d-24a4-4662-99a3-45baaf397efa/Untitled.png)
+
+agora que resolvemos o conflito, há necessidade de atualizar a página e o projeto para que possamos subir no GitHub as atualizações:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24015d55-bd07-4bc4-9c42-d4281007fe5c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24015d55-bd07-4bc4-9c42-d4281007fe5c/Untitled.png)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f7c53da-8985-4535-855e-142d0b602862/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f7c53da-8985-4535-855e-142d0b602862/Untitled.png)
+
 - **Antes de enviar a resolução, precisamos atualizar o projeto local.**
+
+Digamos que alguém (ou você) alterou algo no GitHub (por meio de *Git push*, por exemplo) e você quer atualizar o projeto local. Primeiro, vamos ver como alterar um arquivo, digamos, o [Readme.md](http://readme.md) no GitHub:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75e08dac-2d65-4b6a-82b1-b9f02360cd91/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75e08dac-2d65-4b6a-82b1-b9f02360cd91/Untitled.png)
+
+Após alteração, submeter o commit:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb9b121e-7806-460d-8eb5-81585641e131/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb9b121e-7806-460d-8eb5-81585641e131/Untitled.png)
+
+É importante sempre verificar isso quando trabalhando em equipe para não criar conflitos ou perda de dados, assim, sempre puxe as atualizações do GitHub para somente então subir suas alterações.
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4da1f79-f19b-49d9-9b74-922462f8726f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4da1f79-f19b-49d9-9b74-922462f8726f/Untitled.png)
+
 - **Você precisa voltar um arquivo para um determinado momento da linha do tempo.**
+
+Vamos supor que os ajustes em seu código deram muito errado. Felizmente, se você salvou seguindo as instruções acima, é possível voltar um arquivo para um determinado momento da linha do tempo. Primeiramente identifique a etapa do tempo que deseja restaurar e obtenha o código desta linha de tempo:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/207dd6d9-72aa-49f2-98fd-b7c4971a8f22/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/207dd6d9-72aa-49f2-98fd-b7c4971a8f22/Untitled.png)
+
+Para restaurar, basta utilizar o comando abaixo:
+
+>*Git checkout [sequencia numérica] -- [nome do arquivo **não esqueça de incluir a extensão!**]*
+
 - **Você precisa recuperar algo deletado.**
+
+E se um arquivo inteiro foi eliminado? Digamos que tenhamos um arquivo chamado cart.html e esse foi eliminado. Para restaurar, basta usar o código abaixo:
+
+>*Git checkout -- [nome do arquivo **não esqueça de incluir a extensão!**]*
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e736f81-27c6-441f-8a3f-7fd79b5670bf/Untitled.png)
+
 - **Você precisa mudar de diretório.**
 
 Para mudar de diretório, utilize o comando:
 
-*cd [nome do folder]*
+>*cd [nome do folder]*
 
-OBS: cd ⇒ change directory.
+*OBS*: cd ⇒ change directory.
 
 # Main Git commands:
 
-- `git init` => inicia a linha do tempo;
-- `git add` => adiciona ou atualiza mudanças para irem para a linha do tempo, atualizando os arquivos nos commits;
-- `git commit -m "mensagem"`  // adiciona um ponto na l;inha do tempo
-- `git log` => visualiza os pontos na linha do tempo / commit;
-- `git status` => informa o estado das alterações do nosso projeto;
-- `git show` => apresenta determinado ponto na história;
-- `git branch` => gerenciar novas linhas do tempo;
-- `git checkout` => manipula as linhas do tempo;
-- `git merge` => unir linhas do tempo;
+- `git init` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> inicia a linha do tempo;
+- `git add` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> adiciona ou atualiza mudanças para irem para a linha do tempo, atualizando os arquivos nos commits;
+- `git commit -m "mensagem"`  <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> adiciona um ponto na l;inha do tempo
+- `git log` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> visualiza os pontos na linha do tempo / commit;
+- `git status` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> informa o estado das alterações do nosso projeto;
+- `git show` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> apresenta determinado ponto na história;
+- `git branch` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> gerenciar novas linhas do tempo;
+- `git checkout` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> manipula as linhas do tempo;
+- `git merge` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> unir linhas do tempo;
 - `git push`  <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> envia alterações locais para o repositório remoto (Github);
-- `git clone` <img alt="Icon made by Smashicons from www.flaticon.com" title="Icon made by Smashicons from www.flaticon.com" src="https://image.flaticon.com/icons/png/512/149/149408.png" width="17px" /> Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
-- `git pull` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/1286/1286853.svg" width="15px" /> puxa/recebe o código atualizado do repositório remoto;
+- `git clone` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> Baixar o projeto a primeira vez na sua máquina, ou seja, clonar um projeto / repositório;
+- `git pull` <img alt="Icon made by Freepik from www.flaticon.com" title="Icon made by Freepik from www.flaticon.com" src="https://image.flaticon.com/icons/svg/60/60678.svg" width="15px" /> puxa/recebe o código atualizado do repositório remoto;
 
 ## Developers
 
