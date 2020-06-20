@@ -14,7 +14,8 @@ Sempre há espaço para melhorar! Envie-nos comentários e sugestões!
 
 
 # Vídeos de Referência
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/2alg7MQ6_sI) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/UbJLOn1PAKw)
+|<a href="https://www.youtube.com/embed/2alg7MQ6_sI" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video1.jpg" width="200px"/> | <a href="https://www.youtube.com/embed/UbJLOn1PAKw" target="_blank"><img alt="Developer" title="Developer" src="https://raw.githubusercontent.com/Auriflanos/Git_GitHub_Training/master/Video2.jpg" width="200px"/> 
+
 
 ## Antes de começar...
 
